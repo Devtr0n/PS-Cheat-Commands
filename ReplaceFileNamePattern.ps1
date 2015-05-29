@@ -1,1 +1,1 @@
-﻿dir 'C:\My Folder\Richard' | gci | rename-item -newname { $_.name -replace 'Bert','Ernie' }
+﻿dir 'C:\Workspace\Project\' | gci | rename-item -newname { $_.name -replace 'Bert','Ernie' }
