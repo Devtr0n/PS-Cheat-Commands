@@ -1,1 +1,1 @@
-﻿dir 'C:\Users\Public\Documents\CEMS access\Richard' | gci | rename-item -newname { $_.name -replace 'Bert','Richard' }
+﻿dir 'C:\My Folder\Richard' | gci | rename-item -newname { $_.name -replace 'Bert','Ernie' }
