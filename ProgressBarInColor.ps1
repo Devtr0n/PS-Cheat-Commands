@@ -1,4 +1,10 @@
-﻿Write-Host –NoNewLine "Counting from 1 to 9 (in seconds):  "
+<# 
+Author: Richard Hollon - www.richardhollon.com/Contact.aspx
+
+This script produces a colourised progress bar iteration.
+
+#>
+Write-Host –NoNewLine "Counting from 1 to 9 (in seconds):  "
 foreach($element in 1..3){
   Write-Host –NoNewLine  "${element} " -BackgroundColor "Green" -ForegroundColor "Black"
   Start-Sleep –Seconds 1
