@@ -49,7 +49,7 @@ $userInput				= @($targetLabel,$previousLabel,$productionLabel,$releaseDate)
 $templateFileURL		= 'http://myserver/templates/Template.MyProject.PromotionRequest.Test.docx'
 $outFilePath			= [Environment]::GetFolderPath("Desktop")+'\MyProject.PromotionRequest.Test.docx'
 
-#3.) Open CEMS SharePoint template document via Word Interop
+#3.) Open template document via Word Interop
 $word 					= New-Object -com word.application
 $document 				= $word.Documents.Open($templateFileURL)
 $word.Visible			= $True #make this true to watch Word process changes in real-time! 
